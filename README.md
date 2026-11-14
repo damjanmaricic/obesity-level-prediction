@@ -7,11 +7,7 @@ Linear Discriminant Analysis (LDA) is also included as an optional pipeline step
 Updated Results
 The results below were obtained using one stratified train–test split, with 85% of the data for training and 15% for testing.
 
-|        Model        | Selected configuration | CV accuracy | Test accuracy |
-| Logistic Regression |      Without LDA       |    95.60%   |     94.32%    |
-| K-Nearest Neighbors |        With LDA        |    93.26%   |     93.38%    |
-|    Decision Tree    |      Without LDA       |    94.26%   |     94.64%    |
-|    Random Forest    |      Without LDA       |    94.48%   |     95.58%    |
+![Model performance results](model_results.png)
 
 
 Random Forest achieved the highest test accuracy in this run. These results may differ from those in the original report because the preprocessing and model-selection procedures were changed.
