@@ -6,6 +6,7 @@ In the updated version, the dataset is split into training and test sets before 
 Linear Discriminant Analysis (LDA) is also included as an optional pipeline step. For each classifier, GridSearchCV selects the model parameters and whether to use LDA based on cross-validation accuracy. The selected configuration is then evaluated on the test set.
 Updated Results
 The results below were obtained using one stratified train–test split, with 85% of the data for training and 15% for testing.
+
 |        Model        | Selected configuration | CV accuracy | Test accuracy |
 | Logistic Regression |      Without LDA       |    95.60%   |     94.32%    |
 | K-Nearest Neighbors |        With LDA        |    93.26%   |     93.38%    |
